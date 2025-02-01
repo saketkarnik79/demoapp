@@ -1,0 +1,28 @@
+services:
+  catalogservice:
+    container_name: "catalogservice"
+    image: ${DOCKER_REGISTRY-}catalogservice
+    build:
+      context: .
+      dockerfile: CatalogService/Dockerfile
+    ports:
+      - "8000:8080"
+      - "8001:8081"
+
+  orderservice:
+    container_name: "orderservice"
+    image: ${DOCKER_REGISTRY-}orderservice
+    build:
+      context: .
+      dockerfile: OrderService/Dockerfile
+    ports:
+      - "9000:8080"
+      - "9001:8081"
+    depends_on:
+      - "rabbitmq"
+  rabbitmq:
+    container_name: "rabbitmq"
+    image: "rabbitmq:3-management"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
