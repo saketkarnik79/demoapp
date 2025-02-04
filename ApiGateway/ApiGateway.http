@@ -1,0 +1,11 @@
+@ApiGateway_HostAddress = http://localhost:7000
+
+GET {{ApiGateway_HostAddress}}/products
+Accept: application/json
+
+###
+
+GET {{ApiGateway_HostAddress}}/orders
+Accept: application/json
+
+###

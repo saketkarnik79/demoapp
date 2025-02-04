@@ -5,7 +5,8 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "catalogservice": "StartDebugging",
-        "orderservice": "StartDebugging"
+        "orderservice": "StartDebugging",
+        "apigateway": "StartDebugging"
       }
     }
   }

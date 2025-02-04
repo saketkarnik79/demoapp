@@ -1,4 +1,14 @@
 services:
+  apigateway:
+    container_name: "apigateway"
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "7000:8080"
+      - "7001:8081"
+
   catalogservice:
     container_name: "catalogservice"
     image: ${DOCKER_REGISTRY-}catalogservice
@@ -26,3 +36,4 @@ services:
     ports:
       - "15672:15672"
       - "5672:5672"
+
