@@ -25,6 +25,11 @@ namespace OrderService
                     cfg.Host("rabbitmq://rabbitmq");
                 });
             });
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
 
             builder.Services.AddScoped<OrderPublisher>();
 
@@ -49,7 +54,7 @@ namespace OrderService
             }
 
             //app.UseHttpsRedirection();
-
+            app.UseCors("AllowAll");
             app.UseAuthorization();
 
 

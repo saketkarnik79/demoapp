@@ -6,7 +6,8 @@
       "serviceActions": {
         "catalogservice": "StartDebugging",
         "orderservice": "StartDebugging",
-        "apigateway": "StartDebugging"
+        "apigateway": "StartDebugging",
+        "mvcclient": "StartDebugging"
       }
     }
   }

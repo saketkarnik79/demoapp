@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">JS Client for Microservice</h1>
+    <h3>Product Details</h3>
+    <input type="text" id="productId" name="productId" placeholder="Enter Product ID..."/>
+    <button id="btnSearchProduct" name="btnSearchProduct" onclick="fetchProduct()">Get Product</button>
+    <div id="productDetails">
+
+    </div>
+</div>

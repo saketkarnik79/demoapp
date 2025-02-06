@@ -37,3 +37,13 @@ services:
       - "15672:15672"
       - "5672:5672"
 
+
+  mvcclient:
+    container_name: "mvcclient"
+    image: ${DOCKER_REGISTRY-}mvcclient
+    build:
+      context: .
+      dockerfile: MVCClient/Dockerfile
+    ports:
+      - "10000:8080"
+      - "10001:8081"

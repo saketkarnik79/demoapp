@@ -11,14 +11,19 @@ namespace ApiGateway
             builder.Configuration.AddJsonFile("Ocelot.json");
 
             // Add services to the container.
-
+            builder.Services.AddCors(options => 
+            { 
+                options.AddPolicy("AllowAll",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
             builder.Services.AddOcelot();
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
             app.UseOcelot();
-            app.UseHttpsRedirection();
+            app.UseCors("AllowAll");
+            //app.UseHttpsRedirection();
             app.UseAuthorization();
 
             app.Run();

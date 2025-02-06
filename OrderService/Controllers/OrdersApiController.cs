@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using OrderService.Data;
 using OrderService.Models;
 using OrderService.Messaging;
+using System.Net.Http.Json;
 
 namespace OrderService.Controllers
 {
@@ -17,11 +18,22 @@ namespace OrderService.Controllers
     {
         private readonly OrderDbContext _context;
         private readonly OrderPublisher _orderPublisher;
+        private readonly HttpClient _httpClient;
 
         public OrdersApiController(OrderDbContext context, OrderPublisher orderPublisher)
         {
             _context = context;
             _orderPublisher = orderPublisher;
+            _httpClient = new HttpClient();
+        }
+
+        [HttpGet("product/{id}")]
+        public async Task<Product> GetProductAsync(Guid id)
+        {
+            var response = await _httpClient.GetAsync($"http://apigateway:8080/products/{id}");
+            response.EnsureSuccessStatusCode();
+            var product = await response.Content.ReadFromJsonAsync<Product>();
+            return product;
         }
 
         // GET: api/OrdersApi

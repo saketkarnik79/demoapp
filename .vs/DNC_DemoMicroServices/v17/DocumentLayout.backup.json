@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1FFB51F-E512-4FD0-86A8-CB7C9E3B5302}|ApiGateway\\ApiGateway.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1FFB51F-E512-4FD0-86A8-CB7C9E3B5302}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\jsclient\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|solutionrelative:jsclient\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1FFB51F-E512-4FD0-86A8-CB7C9E3B5302}|ApiGateway\\ApiGateway.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\apigateway\\apigateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{F1FFB51F-E512-4FD0-86A8-CB7C9E3B5302}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\jsclient\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|solutionrelative:jsclient\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1FFB51F-E512-4FD0-86A8-CB7C9E3B5302}|ApiGateway\\ApiGateway.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F1FFB51F-E512-4FD0-86A8-CB7C9E3B5302}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1997D11E-50F7-4CEE-8505-563457F72E4E}|docker-compose.dcproj|c:\\zensar8\\demos\\dnc_demomicroservices\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1997D11E-50F7-4CEE-8505-563457F72E4E}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\jsclient\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|solutionrelative:jsclient\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\ApiGateway\\Program.cs",
-              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\ApiGateway\\Program.cs",
-              "RelativeToolTip": "ApiGateway\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:46:30.795Z",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JSClient\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JSClient\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T09:19:36.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiGateway.http",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\ApiGateway\\ApiGateway.http",
-              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.http",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\ApiGateway\\ApiGateway.http",
-              "RelativeToolTip": "ApiGateway\\ApiGateway.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-04T17:43:57.181Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "JSClient\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Index.cshtml",
+              "RelativeToolTip": "JSClient\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T09:15:58.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Ocelot.json",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\ApiGateway\\Ocelot.json",
-              "RelativeDocumentMoniker": "ApiGateway\\Ocelot.json",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\ApiGateway\\Ocelot.json",
-              "RelativeToolTip": "ApiGateway\\Ocelot.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-04T17:42:33.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-02-04T17:39:15.176Z",
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "JSClient\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "JSClient\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-05T09:08:34.53Z",
               "EditorCaption": ""
             }
           ]

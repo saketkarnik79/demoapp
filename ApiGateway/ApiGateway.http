@@ -9,3 +9,14 @@ GET {{ApiGateway_HostAddress}}/orders
 Accept: application/json
 
 ###
+
+POST {{ApiGateway_HostAddress}}/orders
+Content-Type: application/json
+
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa8",
+  "productId": "3fa85f64-5717-4562-b3fc-2c963f66afa8",
+  "quantity": 20,
+  "orderDate": "2025-02-05T04:20:21.901Z"
+}
+###
