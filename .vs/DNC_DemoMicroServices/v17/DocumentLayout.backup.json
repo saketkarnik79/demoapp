@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\jsclient\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|solutionrelative:jsclient\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\jsclient\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|solutionrelative:jsclient\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|c:\\zensar8\\demos\\dnc_demomicroservices\\jsclient\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{318C0925-B6A0-4109-AB9B-106675E67799}|JSClient\\JSClient.csproj|solutionrelative:jsclient\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "JSClient\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "JSClient\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-05T09:19:36.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "JSClient\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\Pages\\Index.cshtml",
-              "RelativeToolTip": "JSClient\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-05T09:15:58.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "JSClient\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Zensar8\\Demos\\DNC_DemoMicroServices\\JSClient\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "JSClient\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-05T09:08:34.53Z",
-              "EditorCaption": ""
             }
           ]
         }
